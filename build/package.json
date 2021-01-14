@@ -1,0 +1,65 @@
+{
+  "name": "@sf/sf-frames",
+  "author": "Özgür Çimen derozgur@gmail.com",
+  "version": "1.0.0",
+  "description": "Kocdigital SFFrames Library",
+  "main": "main/index.js",
+  "typings": "main/index.d.ts",
+  "module": "module/index.js",
+  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/@sf/sf-frames",
+  "license": "MIT",
+  "keywords": [],
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^1.1.1",
+    "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "codecov": "^3.5.0",
+    "cspell": "^4.1.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-functional": "^3.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "gh-pages": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "nyc": "^15.1.0",
+    "open-cli": "^6.0.1",
+    "prettier": "^2.1.1",
+    "standard-version": "^9.0.0",
+    "ts-node": "^9.0.0",
+    "typedoc": "^0.19.0",
+    "typescript": "^4.0.2"
+  },
+  "files": [
+    "main",
+    "module",
+    "!**/*.spec.*",
+    "!**/*.json",
+    "!src/**/*",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "nyc": {
+    "extends": "@istanbuljs/nyc-config-typescript",
+    "exclude": [
+      "**/*.spec.js"
+    ]
+  }
+}

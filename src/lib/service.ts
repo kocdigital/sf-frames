@@ -18,4 +18,5 @@ export interface Service {
   store: any;
   vuetify: any;
   dialog: any;
+  router: any;
 }

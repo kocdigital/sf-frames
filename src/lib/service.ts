@@ -4,14 +4,14 @@ export function setTheme(isDark:boolean){
   const main = document.getElementById('main_content');
 
   if (isDark) {
-    const darkers = main?.querySelectorAll('.theme--dark') || [];
+    const darkers = main.querySelectorAll('.theme--dark') || [];
 
     darkers.forEach(x => {
       x.classList.remove('theme--dark');
       x.classList.add('theme--light');
     });
   } else {
-    const darkers = main?.querySelectorAll('.theme--light') || [];
+    const darkers = main.querySelectorAll('.theme--light') || [];
 
     darkers.forEach(x => {
       x.classList.remove('theme--light');

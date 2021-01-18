@@ -107,7 +107,7 @@
         "affectsGlobalScope": false
       },
       "../src/lib/service.ts": {
-        "version": "c21f3ffac13c1199550b12ec73a18204ddff84a4dbdef03925cc325f1c7a51c2",
+        "version": "9a76a2cdb86321d975b24edf9b3acc097606716c6caff62da49a6f1fdaafaad6",
         "signature": "cccda80b01c9a3e2c9492c8039d043912a0f93537890d085c16b3353486db1b4",
         "affectsGlobalScope": false
       },

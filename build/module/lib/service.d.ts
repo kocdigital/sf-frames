@@ -8,5 +8,6 @@ export interface Service {
     signOut(): any;
     checkUser(): any;
     store: any;
+    vuetify: any;
     dialog: any;
 }

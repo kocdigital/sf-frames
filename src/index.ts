@@ -10,6 +10,30 @@ function revokeSf(): SF {
   return window.sf as SF
 }
 
+function setTheme(isDark: boolean) {
+  const main = document.getElementById('main_content');
+
+  if (!isDark) {
+    const darkers = main.querySelectorAll('.theme--dark') || [];
+
+    darkers.forEach(x => {
+      x.classList.remove('theme--dark');
+      x.classList.add('theme--light');
+    });
+  } else {
+    const darkers = main.querySelectorAll('.theme--light') || [];
+
+    darkers.forEach(x => {
+      x.classList.remove('theme--light');
+      x.classList.add('theme--dark');
+    });
+  }
+
+  if (revokeSf().services.onThemeChange) {
+    revokeSf().services.onThemeChange(isDark);
+  }
+}
+
 const defineSf = (Vue, props, services) => {
   window.Vue = Vue;
   window.sf = window.sf || {
@@ -27,6 +51,7 @@ const defineSf = (Vue, props, services) => {
 const setServices = (services: Service) => {
   window.sf = window.sf ? {...window.sf, services} : {services};
 }
+
 
 export {
   setServices,

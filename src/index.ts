@@ -18,6 +18,7 @@ const defineSf = (Vue, props, services) => {
   };
 
   window.sf.vue = new Vue(props).$mount('#app');
+  window.sf.services.dialog = window.sf.vue.$dialog;
 
   return revokeSf().vue;
 }

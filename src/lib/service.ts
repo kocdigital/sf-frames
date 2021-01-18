@@ -8,4 +8,6 @@ export interface Service {
     setConfig(value: any): any;
     signOut();
     checkUser(): any;
+    $store:any;
+    $dialog:any;
 }

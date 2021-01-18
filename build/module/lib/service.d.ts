@@ -7,4 +7,6 @@ export interface Service {
     setConfig(value: any): any;
     signOut(): any;
     checkUser(): any;
+    store: any;
+    dialog: any;
 }

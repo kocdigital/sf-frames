@@ -107,8 +107,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/service.ts": {
-        "version": "589075995308b9a4685e6e3757153b72c1e145e5f25cdb586966fa743d47bbe3",
-        "signature": "403858a38410f75de938e650b2d5b643fe54bf95bc365740a12a219d3cb3c777",
+        "version": "f3fd3b7dfc82266873d74e939784cc6e12bac78a7afaba3e8b2173807a9248e6",
+        "signature": "ab91552eeef65d5d68fd83a9ef8ad6d9cfa9bc268d55bf82b098fcf0259637d0",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
@@ -169,7 +169,7 @@
         "../src/lib/service.ts"
       ],
       "../src/lib/service.ts": [
-        "../node_modules/axios/index.d.ts"
+        "../../node_modules/axios/index.d.ts"
       ],
       "../src/types/types.d.ts": [
         "../src/lib/service.ts"

@@ -1,9 +1,9 @@
 import {AxiosInstance} from 'axios';
 
-export function setTheme(isDark:boolean){
+export function setTheme(isDark: boolean) {
   const main = document.getElementById('main_content');
 
-  if (isDark) {
+  if (!isDark) {
     const darkers = main.querySelectorAll('.theme--dark') || [];
 
     darkers.forEach(x => {
@@ -22,15 +22,23 @@ export function setTheme(isDark:boolean){
 
 export interface Service {
   createSecureInstance(baseUrl: string): AxiosInstance;
+
   createUnsecureInstance(baseUrl: string): AxiosInstance;
+
   getToken(): string;
+
   getSettings(): any;
+
   setConfig(value: any): any;
+
   signOut();
+
   checkUser(): any;
+
   store: any;
   vuetify: any;
   dialog: any;
   router: any;
+
   setTheme(isDark: boolean): void
 }

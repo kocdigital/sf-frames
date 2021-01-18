@@ -1,4 +1,4 @@
-import {Service, setTheme} from './lib/service';
+import {Service} from './lib/service';
 
 interface SF {
   vue?: any;

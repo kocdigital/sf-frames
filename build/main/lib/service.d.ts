@@ -1,5 +1,4 @@
 import { AxiosInstance } from 'axios';
-export declare function setTheme(isDark: boolean): void;
 export interface Service {
     createSecureInstance(baseUrl: string): AxiosInstance;
     createUnsecureInstance(baseUrl: string): AxiosInstance;
@@ -13,4 +12,5 @@ export interface Service {
     dialog: any;
     router: any;
     setTheme(isDark: boolean): void;
+    onThemeChange(isDark: boolean): void;
 }

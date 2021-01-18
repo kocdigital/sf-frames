@@ -107,12 +107,12 @@
         "affectsGlobalScope": false
       },
       "../src/lib/service.ts": {
-        "version": "773070a5b4d4984385cc2aacc51499f01a58004e7a054071d4edd1d47ede7829",
-        "signature": "fb4d81a2afdc7de7a4858e40de4defc8ecee921bf8784d3028b503b07e90447b",
+        "version": "c21f3ffac13c1199550b12ec73a18204ddff84a4dbdef03925cc325f1c7a51c2",
+        "signature": "cccda80b01c9a3e2c9492c8039d043912a0f93537890d085c16b3353486db1b4",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "58323ede91163da3a7a5a12bc88fb24ae505fdb034b49996b029ce52160c9f70",
+        "version": "a5689cc3c37e9f71a0976ec8b85e871af1efe19a1f75ad76df523290bfd80203",
         "signature": "f521a2aee0c2f5a96a314886dc052fb432777c7a7f17c76e403ca7eb2947a8ab",
         "affectsGlobalScope": false
       },

@@ -1,4 +1,4 @@
-import {Service} from './lib/service';
+import {Service, setTheme} from './lib/service';
 
 interface SF {
   vue?: any;
@@ -19,6 +19,7 @@ const defineSf = (Vue, props, services) => {
 
   window.sf.vue = new Vue(props).$mount('#app');
   window.sf.services.dialog = window.sf.vue.$dialog;
+  window.sf.services.setTheme = setTheme;
 
   return revokeSf().vue;
 }

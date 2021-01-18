@@ -52,7 +52,6 @@ const setServices = (services: Service) => {
   window.sf = window.sf ? {...window.sf, services} : {services};
 }
 
-
 export {
   setServices,
   revokeSf,

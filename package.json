@@ -6,9 +6,12 @@
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
+  "bugs": {
+    "url": "https://github.com/kocdigital/sf-frames/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/derozgurg/sf-frames.git"
+    "url": "https://github.com/kocdigital/sf-frames"
   },
   "license": "MIT",
   "keywords": [],

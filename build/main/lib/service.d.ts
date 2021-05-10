@@ -11,6 +11,7 @@ export interface Service {
     vuetify: any;
     dialog: any;
     router: any;
+    getSolution(): string;
     setTheme(isDark: boolean): void;
     onThemeChange(isDark: boolean): void;
 }

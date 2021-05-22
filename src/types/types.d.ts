@@ -1,4 +1,4 @@
-import {Service} from "../lib/service";
+import { Service } from '../lib/service';
 
 declare global {
   interface Window {

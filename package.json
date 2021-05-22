@@ -1,5 +1,5 @@
 {
-  "name": "@derozgur/sf-frames",
+  "name": "@secp/sf-frames",
   "author": "Özgür Çimen",
   "email": "derozgur@gmail.com",
   "version": "1.0.0",
@@ -7,6 +7,7 @@
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
+  "private": false,
   "bugs": {
     "url": "https://github.com/kocdigital/sf-frames/issues"
   },

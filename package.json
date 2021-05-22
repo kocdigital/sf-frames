@@ -1,5 +1,5 @@
 {
-  "name": "@sectionpi/sf-frames",
+  "name": "@sectp/sf-frames",
   "author": "Özgür Çimen",
   "email": "derozgur@gmail.com",
   "version": "1.0.0",
@@ -57,6 +57,9 @@
     "LICENSE",
     "README.md"
   ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"

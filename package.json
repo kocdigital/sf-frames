@@ -1,6 +1,7 @@
 {
-  "name": "@sf/sf-frames",
-  "author": "Ozgur Cimen derozgur@gmail.com",
+  "name": "@derozgur/sf-frames",
+  "author": "Özgür Çimen",
+  "email": "derozgur@gmail.com",
   "version": "1.0.0",
   "description": "Koc Digital Safe Frames Micro-frontend Interface",
   "main": "build/main/index.js",
